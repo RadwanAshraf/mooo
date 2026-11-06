@@ -16,6 +16,8 @@ CFG={
  25:(["Trace the Horizontal","Curves and Zigzags"],'orig'),
  26:(["Trace and Color the Cloud"],'orig'),
  29:(["Trace and Color the Apple"],'orig'),
+ 28:(["Find the Odd One Out"],'orig'),
+ 30:(["Help the Rabbit Eat the","Carrots"],'orig'),
 }
 def width(s,sz): return font.text_length(s,sz)+TRACK*sz*(len(s)-1)
 def draw(tw,s,cx,base,sz):
